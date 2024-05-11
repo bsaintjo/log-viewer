@@ -1,0 +1,61 @@
+import { Button, VerticalBox, StandardListView, ListView, TabWidget, Palette } from "std-widgets.slint";
+
+export global Directories {
+    in-out property <[string]> log-files: [
+        "2023-10-24 20:25:43.283, root, INFO, DynamicAcquisition, acqpatterns.py:212, DynamicAcquisition acquiring C14486GA 822OI006 at 960000 us",
+        "2023-10-24 20:25:44.275, root, INFO, DynamicAcquisition, acqpatterns.py:256, DynamicAcquisition: Begin optimization of integration time.",
+        "2023-10-24 15:48:59.288, root, INFO, DynamicAcquisition, acqpatterns.py:423, Integration Time Fit (us), max value, maxIdx: 120000, 38136.0, 889.622",
+        "2023-10-24 15:48:59.441, root, INFO, DynamicAcquisition, acqpatterns.py:444, Integration Time Best (us): 120000",
+        "2023-10-24 15:49:01.623, root, INFO, DynamicAcquisition, acqpatterns.py:423, Integration Time Fit (us), max value, maxIdx: 960000, 43270.0, 153.605",
+        "2023-10-24 15:49:02.621, root, INFO, DynamicAcquisition, acqpatterns.py:444, Integration Time Best (us): 960000",
+    ];
+}
+
+export component AppWindow inherits Window {
+    preferred-width: 900px;
+    preferred-height: 500px;
+    title: "Log Viewer";
+
+    in-out property <int> counter: 42;
+    callback request-increase-value();
+
+    VerticalLayout {
+        TabWidget {
+            max-height: 30px;
+            Tab {
+                title: "Matauri Bay";
+            }
+
+            Tab {
+                title: "Spectro Server";
+            }
+        }
+
+        ListView {
+            for data in Directories.log-files: Rectangle {
+                height: 14px;
+                background: Palette.background;
+                border-color: Palette.border;
+                Text {
+                    x: 0;
+                    font-size: 14px;
+                    text: data;
+                    wrap: TextWrap.word-wrap;
+                }
+            }
+        }
+
+        VerticalBox {
+            Text {
+                text: "Counter: \{root.counter}";
+            }
+
+            Button {
+                text: "Increase value";
+                clicked => {
+                    root.request-increase-value();
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+2023-10-24 15:46:17.350, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 2000 us
+2023-10-24 15:46:17.396, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 4000 us
+2023-10-24 15:46:17.407, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 4000 us
+2023-10-24 15:46:17.455, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 7000 us
+2023-10-24 15:46:17.460, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 7000 us
+2023-10-24 15:46:17.507, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 15000 us
+2023-10-24 15:46:17.518, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 15000 us
+2023-10-24 15:46:17.581, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 30000 us
+2023-10-24 15:46:17.589, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 30000 us
+2023-10-24 15:46:17.699, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 60000 us
+2023-10-24 15:46:17.704, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 60000 us
+2023-10-24 15:46:17.794, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 120000 us
+2023-10-24 15:46:17.842, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 120000 us
+2023-10-24 15:46:17.986, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 240000 us
+2023-10-24 15:46:18. 29, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 240000 us
+2023-10-24 15:46:18.281, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 480000 us
+2023-10-24 15:46:18.337, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 480000 us
+2023-10-24 15:46:18.797, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 960000 us
+2023-10-24 15:46:18.879, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 960000 us
+2023-10-24 15:46:19.919, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 1920000 us
+2023-10-24 15:46:19.978, root, INFO, DynamicAcquisition, acqpatterns.py:423, Integration Time Fit (us), max value, maxIdx: 87050.72155375866, 25847.0, 889.622
+2023-10-24 15:46:20. 98, root, INFO, DynamicAcquisition, acqpatterns.py:444, Integration Time Best (us): 87050
+2023-10-24 15:46:22.471, root, INFO, DynamicAcquisition, acqpatterns.py:423, Integration Time Fit (us), max value, maxIdx: 706602.8107089582, 25474.0, 153.605
+2023-10-24 15:46:23.215, root, INFO, DynamicAcquisition, acqpatterns.py:444, Integration Time Best (us): 706602
+2023-10-24 15:48:05.932, root, INFO, the_gui, matauri-bay.py:1239, Acq Method selected: DynamicAcquisition
+2023-10-24 15:48:05.940, root, INFO, the_gui, matauri-bay.py:1245, Started Dynamic Acquisition
+2023-10-24 15:48:07. 56, root, INFO, the_gui, matauri-bay.py:1295, Dynamic Acquisition lclCnt = 10
+2023-10-24 15:48:07. 66, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 100 us
+2023-10-24 15:48:07.106, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 100 us
+2023-10-24 15:48:07.161, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 250 us
+2023-10-24 15:48:07.190, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 250 us
+2023-10-24 15:48:07.238, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 500 us
+2023-10-24 15:48:07.266, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 500 us
+2023-10-24 15:48:07.312, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 750 us
+2023-10-24 15:48:07.329, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 750 us
+2023-10-24 15:48:07.377, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 1000 us
+2023-10-24 15:48:07.388, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 1000 us
+2023-10-24 15:48:07.451, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 2000 us
+2023-10-24 15:48:07.483, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 2000 us
+2023-10-24 15:48:07.532, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 4000 us
+2023-10-24 15:48:07.565, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 4000 us
+2023-10-24 15:48:07.589, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 7000 us
+2023-10-24 15:48:07.638, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 7000 us
+2023-10-24 15:48:07.646, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 15000 us
+2023-10-24 15:48:07.704, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 30000 us
+2023-10-24 15:48:07.726, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 15000 us
+2023-10-24 15:48:07.790, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 60000 us
+2023-10-24 15:48:07.798, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 30000 us
+2023-10-24 15:48:07.879, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 60000 us
+2023-10-24 15:48:07.892, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 120000 us
+2023-10-24 15:48:07.984, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 120000 us
+2023-10-24 15:48:08. 47, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 240000 us
+2023-10-24 15:48:08.151, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 240000 us
+2023-10-24 15:48:08.319, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 480000 us
+2023-10-24 15:48:08.447, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 480000 us
+2023-10-24 15:48:08.830, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 960000 us
+2023-10-24 15:48:08.976, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 960000 us
+2023-10-24 15:48:09.910, root, INFO, DynamicAcquisition, acqpatterns.py:423, Integration Time Fit (us), max value, maxIdx: 120000, 38122.0, 889.622
+2023-10-24 15:48:09.981, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 1920000 us
+2023-10-24 15:48:10. 64, root, INFO, DynamicAcquisition, acqpatterns.py:444, Integration Time Best (us): 120000
+2023-10-24 15:48:12.685, root, INFO, DynamicAcquisition, acqpatterns.py:423, Integration Time Fit (us), max value, maxIdx: 960000, 43554.0, 153.605
+2023-10-24 15:48:13.686, root, INFO, DynamicAcquisition, acqpatterns.py:444, Integration Time Best (us): 960000
+2023-10-24 15:48:54.936, root, INFO, the_gui, matauri-bay.py:1239, Acq Method selected: DynamicAcquisition
+2023-10-24 15:48:54.938, root, INFO, the_gui, matauri-bay.py:1245, Started Dynamic Acquisition
+2023-10-24 15:48:56. 27, root, INFO, the_gui, matauri-bay.py:1295, Dynamic Acquisition lclCnt = 10
+2023-10-24 15:48:56. 34, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 100 us
+2023-10-24 15:48:56. 71, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 100 us
+2023-10-24 15:48:56.134, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 250 us
+2023-10-24 15:48:56.143, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 250 us
+2023-10-24 15:48:56.188, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 500 us
+2023-10-24 15:48:56.201, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 500 us
+2023-10-24 15:48:56.251, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 750 us
+2023-10-24 15:48:56.259, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 750 us
+2023-10-24 15:48:56.305, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 1000 us
+2023-10-24 15:48:56.323, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 1000 us
+2023-10-24 15:48:56.371, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 2000 us
+2023-10-24 15:48:56.379, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 2000 us
+2023-10-24 15:48:56.419, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 4000 us
+2023-10-24 15:48:56.443, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 4000 us
+2023-10-24 15:48:56.490, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 7000 us
+2023-10-24 15:48:56.502, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 7000 us
+2023-10-24 15:48:56.554, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 15000 us
+2023-10-24 15:48:56.563, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 15000 us
+2023-10-24 15:48:56.618, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 30000 us
+2023-10-24 15:48:56.639, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 30000 us
+2023-10-24 15:48:56.706, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 60000 us
+2023-10-24 15:48:56.724, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 60000 us
+2023-10-24 15:48:56.819, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 120000 us
+2023-10-24 15:48:56.841, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 120000 us
+2023-10-24 15:48:57.325, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 240000 us
+2023-10-24 15:48:57.344, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 240000 us
+2023-10-24 15:48:57.626, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 480000 us
+2023-10-24 15:48:57.656, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 480000 us
+2023-10-24 15:48:58.153, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring C14486GA 822OI006 at 960000 us
+2023-10-24 15:48:58.190, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 960000 us
+2023-10-24 15:48:59.230, root, INFO, DynamicAcquisition, acqpatterns.py:304, DynamicAcquisition acquiring PTC1-AvaSpec-MINI2048CL 7324760SP at 1920000 us
+2023-10-24 15:48:59.288, root, INFO, DynamicAcquisition, acqpatterns.py:423, Integration Time Fit (us), max value, maxIdx: 120000, 38136.0, 889.622
+2023-10-24 15:48:59.441, root, INFO, DynamicAcquisition, acqpatterns.py:444, Integration Time Best (us): 120000
+2023-10-24 15:49:01.623, root, INFO, DynamicAcquisition, acqpatterns.py:423, Integration Time Fit (us), max value, maxIdx: 960000, 43270.0, 153.605
+2023-10-24 15:49:02.621, root, INFO, DynamicAcquisition, acqpatterns.py:444, Integration Time Best (us): 960000

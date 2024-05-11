@@ -1,0 +1,22 @@
+[package]
+name = "log-viewer"
+version = "0.1.0"
+authors = ["Brandon T. P. Saint-John <saint-john@lbl.gov>"]
+edition = "2021"
+build = "build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[profile.release]
+codegen-units = 1
+lto = "fat"
+
+[dependencies]
+eyre = "0.6.12"
+flexi_logger = "0.28.0"
+log = "0.4.21"
+rev_buf_reader = "0.3.0"
+slint = "1.5"
+
+[build-dependencies]
+slint-build = "1.5"
