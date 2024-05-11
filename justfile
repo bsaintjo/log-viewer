@@ -8,8 +8,8 @@ package:
     tar -cvzf log-viewer.tar.gz \
         log-viewer.desktop \
         install.sh \
-        -C "$PWD"/assets/ log-128x128.png
-        -C "$PWD"/target/aarch64-unknown-linux-gnu/release/ log-viewer \
+        -C "$PWD"/assets/ log-128x128.png \
+        -C "$PWD"/target/aarch64-unknown-linux-gnu/release/ log-viewer
 
 # Compile for ProSpectral
 compile:
