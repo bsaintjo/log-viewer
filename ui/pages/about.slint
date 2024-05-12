@@ -1,0 +1,48 @@
+import { AboutSlint, Button, Palette, HorizontalBox, VerticalBox } from "std-widgets.slint";
+export component AboutPage {
+    VerticalBox {
+        alignment: center;
+        Text {
+            horizontal-alignment: center;
+            text: "This software is NOT licensed and may not be redistributed.";
+        }
+
+        HorizontalBox {
+            alignment: center;
+            Image {
+                max-width: 150px;
+                // horizontal-alignment: center;
+                    source: @image-url("../../assets/lbnl.png");
+            }
+
+            AboutSlint {
+                height: 200px;
+                width: 200px;
+            }
+        }
+
+        Button {
+            text: "LICENSE";
+            clicked => {
+                popup.show();
+            }
+        }
+
+        popup := PopupWindow {
+            close-on-click: true;
+            Rectangle {
+                height: 300px;
+                width: 500px;
+                drop-shadow-offset-x: 10px;
+                drop-shadow-offset-y: 10px;
+                drop-shadow-color: Palette.accent-background;
+                x: (root.width / 2) - (self.width / 2);
+                y: (root.height / 2) - (self.height / 2);
+                background: Palette.alternate-background;
+                Text {
+                    text: "License text?";
+                }
+            }
+        }
+    }
+}

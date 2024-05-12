@@ -1,0 +1,16 @@
+import { StandardButton, StandardListView } from "std-widgets.slint";
+export component Exporter inherits Dialog {
+    callback mount-usb();
+    callback export-files();
+    StandardButton {
+        kind: retry;
+    }
+
+    StandardButton {
+        kind: ok;
+    }
+
+    StandardListView {
+        model: [{ text: "This" }, { text: "is" }, { text: "a" }, { text: "test" }];
+    }
+}

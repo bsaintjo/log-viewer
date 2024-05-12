@@ -14,3 +14,7 @@ package:
 # Compile for ProSpectral
 compile:
     cross build --release --target aarch64-unknown-linux-gnu
+
+# Debug build
+build:
+    cross build --target aarch64-unknown-linux-gnu
