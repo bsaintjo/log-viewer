@@ -21,10 +21,13 @@ export component AboutPage {
             }
         }
 
-        Button {
-            text: "LICENSE";
-            clicked => {
-                popup.show();
+        HorizontalBox {
+            alignment: center;
+            Button {
+                text: "LICENSE";
+                clicked => {
+                    popup.show();
+                }
             }
         }
 
