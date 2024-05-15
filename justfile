@@ -5,7 +5,8 @@ _default:
 # Packge binary, and misc files into tar.gz
 package:
     @just compile
-    tar -cvzf log-viewer.tar.gz \
+    mkdir -p build
+    tar -cvzf build/log-viewer.$(date +"%Y-%m-%d-%H%M").tar.gz \
         log-viewer.desktop \
         install.sh \
         -C "$PWD"/assets/ log-128x128.png \

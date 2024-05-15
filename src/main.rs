@@ -1,3 +1,5 @@
+mod mount;
+
 use std::{
     fs::File,
     io::{BufRead, Cursor},
@@ -7,7 +9,6 @@ use std::{
 use flexi_logger::LogSpecification;
 use rev_buf_reader::RevBufReader;
 use slint::VecModel;
-use sys_mount::{Mount, SupportedFilesystems, Unmount, UnmountFlags};
 
 slint::include_modules!();
 
@@ -48,23 +49,17 @@ fn main() -> eyre::Result<()> {
         eprintln!("Failed to initialize logger: {e}");
     }
 
-    if let Ok(supported) = SupportedFilesystems::new() {
-        for line in supported.dev_file_systems() {
-            log::info!("dev: {line}");
-        }
-        for line in supported.nodev_file_systems() {
-            log::info!("nodev: {line}");
-        }
-    }
 
-    let mounted = Mount::new("/dev/sda1", "/mnt/usb-drive");
-    match mounted {
-        Ok(m) => {
-            m.into_unmount_drop(UnmountFlags::DETACH);
-            log::info!("Successfully mounted USB");
-        }
-        Err(e) => log::warn!("Failed to mount USB: {e}"),
-    }
+    mount::mount();
+
+    // let mounted = Mount::new("/dev/sda1", "/mnt/usb-drive");
+    // match mounted {
+    //     Ok(m) => {
+    //         m.into_unmount_drop(UnmountFlags::DETACH);
+    //         log::info!("Successfully mounted USB");
+    //     }
+    //     Err(e) => log::warn!("Failed to mount USB: {e}"),
+    // }
 
     let ui = AppWindow::new()?;
     let results = load_logs();

@@ -17,7 +17,9 @@ flexi_logger = "0.28.0"
 log = "0.4.21"
 rev_buf_reader = "0.3.0"
 slint = "1.5"
-sys-mount = "3.0.1"
+
+[target.'cfg(linux)'.depedencies]
+sys-mount = { version = "3.0.1", default-features = false }
 
 [build-dependencies]
 slint-build = "1.5"
