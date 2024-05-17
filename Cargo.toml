@@ -18,7 +18,7 @@ log = "0.4.21"
 rev_buf_reader = "0.3.0"
 slint = "1.5"
 
-[target.'cfg(linux)'.depedencies]
+[target.'cfg(target_os = "linux")'.dependencies]
 sys-mount = { version = "3.0.1", default-features = false }
 
 [build-dependencies]

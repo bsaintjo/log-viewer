@@ -1,6 +1,6 @@
 #[cfg(target_os = "linux")]
 pub fn mount() {
-    use sys_mount::{Mount, SupportedFilesystems, Unmount, UnmountFlags};
+    use sys_mount::{Mount, SupportedFilesystems};
     if let Ok(supported) = SupportedFilesystems::new() {
         for line in supported.dev_file_systems() {
             log::info!("dev: {line}");
